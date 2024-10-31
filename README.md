@@ -1,38 +1,21 @@
-# sv
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## 🚀 Dashboard de Gestión para startups
 
-## Creating a project
+#### Descripción del Proyecto
+Este proyecto es un Dashboard de Gestión diseñado para startups, desarrollado con SvelteKit y Vite para proporcionar una experiencia de usuario rápida y fluida. Su objetivo es centralizar la gestión, comunicación y acceso a documentos, proporcionando una herramienta unificada y eficiente para equipos dinámicos. La aplicación permite a los usuarios colaborar en tiempo real, acceder a documentos de manera centralizada y mantener la información organizada en un solo lugar.
 
-If you're seeing this, you've probably already done this step. Congrats!
+#### Características Principales
+Centralización de la Comunicación: Chat en tiempo real y acceso centralizado a documentos y archivos.
 
-```bash
-# create a new project in the current directory
-npx sv create
+#### Gestión de Documentos:
+Integración con servicios en la nube para almacenar y acceder a documentos de manera eficiente.
+Notificaciones y Actualizaciones: Sistema de notificaciones internas para informar sobre novedades y anuncios.
 
-# create a new project in my-app
-npx sv create my-app
-```
+#### Optimización en Docker:
+Configurado para ejecutarse en contenedores Docker, facilitando el despliegue y la escalabilidad.
 
-## Developing
+## Tech Stack
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+**Client:** Sveltekit, Vite, Skeleton UI, Typescript
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+**Server:** Node, Express, Docker, pnpm, ESlint, Prettier.
